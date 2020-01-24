@@ -69,16 +69,13 @@ p {
     text-align: center;
     margin-top: 170px;
     width: 100px;
+    transform: translateX(500px);
   }
 
   main {
     margin-top: 100px;
     display: flex;
     position: relative;
-  }
-
-  aside {
-    display: flex;
   }
 
   p {
