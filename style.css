@@ -58,18 +58,15 @@ p {
     display: inline-block;
     margin-right: 5px;
   }
-
   section {
     height: 500px;
     width: 500px;
   }
-
   .button_2 {
-    border-radius: 25px;
-    text-align: center;
-    margin-top: 170px;
-    width: 100px;
-    transform: translateX(500px);
+    position: fixed;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
   }
 
   main {
@@ -86,29 +83,32 @@ p {
     background-color: rgba(247, 136, 167, 0.6);
     height: 200px;
     width: 200px;
-    border-radius: 50%;
+    border-radius: 600%;
     position: absolute;
-    right: 0;
-    top: 10px;
+    right: 65px;
+    top: 150px;
   }
 
   .shape_2 {
     background-color: rgba(247, 193, 162, 0.7);
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    opacity: 80%;
+    border-radius: 600%;
     position: absolute;
-    right: 0;
-    top: 100px;
+    right: 10px;
+    top: 260px;
+    z-index: 2;
   }
 
   .shape_3 {
     background-color: rgba(207, 130, 213, 0.5);
-    height: 155px;
-    width: 155px;
-    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border-radius: 600%;
+    opacity: 70%;
     position: absolute;
-    right: 0;
-    top: -10px;
+    right: 20px;
+    top: 190px;
   }
 }
